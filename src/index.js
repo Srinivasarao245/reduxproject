@@ -19,6 +19,7 @@ import store from './stote/store';
 import Counts from './Components/Counts';
 import Todolists from './Components/Todolists';
 import Products from './Components/Products';
+import Cart from './Components/cart';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
     {
       path:"/todolists",
       element: <Todolists></Todolists>
+    },
+    {
+      path:"/cart",
+      element: <Cart></Cart>
     },
     {
       path:"/products",

@@ -4,9 +4,15 @@ var initialState = {
 function todoReducer(state=initialState,action){
     if(action.type==='ADD_TODO'){
         return{ ...state,todos:[...state.todos,action.payload] }
-    } return state
+    }
+    if(action.type==='DEL_TODO'){
+          return {state,todos:[...state.todos.filter(
+            (s,i)=>{return action.playload!==i })]}
+               }
+ return state
 }
     // if(action.type==='DEL_TODO'){
-    //     return{ ...state,todos:[...state.todos,action.payload] }
-    // } return state,
+    //     return{ ...state,todos:[] } 
+    // 
+    // },
 export default todoReducer;

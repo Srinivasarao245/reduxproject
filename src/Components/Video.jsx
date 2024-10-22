@@ -24,6 +24,8 @@ function Video(){
              <Like></Like>
             <img  src=" https://live.staticflickr.com/4724/25039883267_5b3eaede33.jpg" /> <br /> <br />
               <Like></Like> 
+            <iframe width="560" height="325" src="https://www.youtube.com/embed/uT0Z2kOctb8?si=IGMSrp7RK4Ehc_BU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+              <Like></Like> 
         </div>
     ) }
     export default Video
